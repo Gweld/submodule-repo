@@ -8,7 +8,7 @@ import java.io.RandomAccessFile;
  */
 public class ConstructorExample {
 
-    public static long getFileLength(String path) throws IOException {
+    public static long getFileLength(String path) throws IOException {    
         RandomAccessFile file = new RandomAccessFile(path, "rw");
         return file.length();
     }

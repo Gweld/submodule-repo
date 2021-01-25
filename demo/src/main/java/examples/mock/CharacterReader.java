@@ -10,7 +10,7 @@ import java.nio.CharBuffer;
  */
 public class CharacterReader {
 
-    public void read(Reader reader) throws IOException {   
+    public void read(Reader reader) throws IOException {
         if (reader.ready()) {
             prepareCharBuffer(reader);
         }
