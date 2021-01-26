@@ -1,0 +1,3 @@
+[submodule "submodule-repo3"]
+	path = submodule-repo3
+	url = https://github.com/Gweld/submodule-repo3.git
