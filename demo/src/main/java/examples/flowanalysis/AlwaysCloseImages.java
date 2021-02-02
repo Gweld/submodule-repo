@@ -6,6 +6,7 @@ import javax.imageio.ImageReader;
 
 import javax.imageio.spi.ImageReaderSpi;
 
+//change to provoke testing
 public class AlwaysCloseImages {
 
     public Image readImage(ImageReaderSpi spi) {
